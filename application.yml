@@ -29,7 +29,7 @@ logging:
     com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusProperty: WARN
 
 spring.rabbitmq:
-  host: rabitmq
+  host: rabbitmq
   port: 5672
 
 hystrix:

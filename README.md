@@ -1,2 +1,4 @@
-# virtuoso-config
+Virtuoso config
+================================
+
 Virtuoso configuration.

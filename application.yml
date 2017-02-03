@@ -31,6 +31,8 @@ logging:
 spring.rabbitmq:
   host: rabbitmq
   port: 5672
+  username: virtuoso
+  password: virtuoso
 
 hystrix:
   threadpool:

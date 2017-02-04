@@ -5,6 +5,11 @@ service:
   defaultMinMs: 5
   defaultMaxMs: 20
 
+security:
+  oauth2:
+    resource:
+      userInfoUri: http://auth:8080/user/info
+
 logging:
   level:
     root: WARN

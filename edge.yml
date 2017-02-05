@@ -1,5 +1,6 @@
 zuul:
   ignoredServices: "*"
-    prefix: /api
-    routes:
-      virtuoso: /music/**
+  prefix: /api
+  routes:
+    virtuoso: /music/**
+    storage: /files**

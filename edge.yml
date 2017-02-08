@@ -5,6 +5,7 @@ zuul:
     virtuoso:
       path: /music/**
       serviceId: virtuoso
+      stripPrefix: false
     storage:
       path: /files**
       serviceId: storage

@@ -2,5 +2,10 @@ zuul:
   ignoredServices: "*"
   prefix: /api
   routes:
-    virtuoso: /music/**
-    storage: /files**
+    virtuoso:
+      path: /music/**
+      serviceId: virtuoso
+    storage:
+      path: /files**
+      serviceId: storage
+      stripPrefix: false

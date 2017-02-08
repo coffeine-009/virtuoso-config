@@ -9,3 +9,11 @@ zuul:
       path: /files**
       serviceId: storage
       stripPrefix: false
+
+endpoints:
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+  health:
+    sensitive: false

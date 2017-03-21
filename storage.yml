@@ -1,0 +1,9 @@
+#- Storage params -#
+spring:
+  data:
+    mongodb:
+      database: storage
+      host: ${DB_HOST}
+      port: 27017
+      username: storage
+      password: storage

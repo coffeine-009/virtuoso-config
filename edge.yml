@@ -9,10 +9,6 @@ zuul:
       path: /security/**
       serviceId: auth
       stripPrefix: false
-    auth:
-      path: /oauth/**
-      serviceId: auth
-      stripPrefix: false
     virtuoso:
       path: /music/**
       serviceId: virtuoso

@@ -10,6 +10,13 @@ security:
     resource:
       userInfoUri: http://auth:8080/user/info
 
+spring:
+  cloud:
+    config:
+      failFast: true
+      discovery:
+        enabled: true
+
 logging:
   level:
     root: WARN

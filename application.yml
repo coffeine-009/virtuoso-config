@@ -41,7 +41,7 @@ logging:
     com.netflix.hystrix.strategy.properties.HystrixPropertiesChainedArchaiusProperty: WARN
 
 spring.rabbitmq:
-  host: rabbitmq
+  host: rabbitmq.thecoffeine.com
   port: 5672
   username: virtuoso
   password: virtuoso
@@ -125,14 +125,14 @@ spring:
 
 server.port: 8080
 
-spring.rabbitmq.host: rabbitmq
+spring.rabbitmq.host: rabbitmq.thecoffeine.com
 
 eureka:
   instance:
     preferIpAddress: true
   client:
     serviceUrl:
-      defaultZone: http://discovery:8761/eureka/
+      defaultZone: http://discovery.thecoffeine.com:8761/eureka/
 
 
 ---

@@ -18,6 +18,11 @@ zuul:
       serviceId: storage
       stripPrefix: false
 
+proxy:
+  auth:
+    routes:
+      virtuoso: none
+
 endpoints:
   restart:
     enabled: true

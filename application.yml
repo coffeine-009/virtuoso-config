@@ -8,7 +8,7 @@ service:
 security:
   oauth2:
     resource:
-      userInfoUri: http://authorization.thecoffeine.com:8080/user/info
+      userInfoUri: http://authorization.thecoffeine.com/user/info
 
 spring:
   cloud:

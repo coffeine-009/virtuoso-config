@@ -18,6 +18,15 @@ zuul:
       serviceId: storage
       stripPrefix: false
 
+security:
+  oauth2:
+    client:
+      clientId: developer
+      clientSecret: developer32
+      accessTokenUri: http://authorization.thecoffeine.com/oauth/token
+      userAuthorizationUri: http://authorization.thecoffeine.com/oauth/authorize
+      clientAuthenticationScheme: form
+
 endpoints:
   restart:
     enabled: true

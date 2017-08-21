@@ -26,6 +26,8 @@ security:
       accessTokenUri: http://authorization.thecoffeine.com/oauth/token
       userAuthorizationUri: http://authorization.thecoffeine.com/oauth/authorize
       clientAuthenticationScheme: form
+    resource:
+      user-info-uri: ${AUTHORIZATION_SERVER_URL:http://authorization.thecoffeine.com/user/info}
 
 endpoints:
   restart:

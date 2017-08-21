@@ -8,7 +8,7 @@ service:
 security:
   oauth2:
     resource:
-      userInfoUri: ${AUTHORIZATION_SERVER_URL:http://authorization.thecoffeine.com/user/info}
+      user-info-uri: ${AUTHORIZATION_SERVER_URL:http://authorization.thecoffeine.com/user/info}
 
 spring:
   cloud:

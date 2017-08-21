@@ -1,3 +1,6 @@
+server:
+  port: 8079
+
 spring:
   datasource:
     url: jdbc:postgresql://db.thecoffeine.com:5432/thecoffeine

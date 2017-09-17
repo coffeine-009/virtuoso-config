@@ -19,11 +19,14 @@ spring:
     password: vbynkctoblpqkujy
     properties:
       mail:
+        mime:
+          charset: utf8
         smtp:
           auth: true
           starttls:
             enable: true
             required: true
+
   rabbitmq:
     host: rabbitmq.thecoffeine.com
     port: 5672

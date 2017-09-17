@@ -15,12 +15,11 @@ spring:
     host: smtp.gmail.com
     port: 587
     protocol: smtp
+    defaultEncoding: UTF-8
     username: vitaliyacm@gmail.com
     password: vbynkctoblpqkujy
     properties:
       mail:
-        mime:
-          charset: utf8
         smtp:
           auth: true
           starttls:

@@ -16,8 +16,8 @@ spring:
     port: 587
     protocol: smtp
     defaultEncoding: UTF-8
-    username: vitaliyacm@gmail.com
-    password: vbynkctoblpqkujy
+    username: support@musician-virtuoso.com
+    password: fvbppuaeqttuyxjq
     properties:
       mail:
         smtp:
